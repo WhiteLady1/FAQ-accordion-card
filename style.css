@@ -9,7 +9,7 @@
 }
 
 /*-----------------------------------*/
-body{
+body {
   background-image: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
   font-family: 'Kumbh Sans', sans-serif;
   font-size: 12px;
@@ -20,7 +20,7 @@ body{
   align-items: center;
 }
 
-.card{
+.card {
   display: flex;
   flex-direction: column;
   background-color: white;
@@ -31,28 +31,30 @@ body{
   height: 536px;
 }
 
-.image{
+.image {
   display: flex;
   flex-direction: column;
   align-items: center;
   border-radius: 15px;
   position: relative;
 }
-.imageMobil{
+.imageMobil {
   position: absolute;
   top: 4vh;
   left: 1vh;
 }
-.imageDesktop{
-  display:none;
+.imageDesktop {
+  display: none;
+}
+.arrow:hover {
+  cursor: pointer;
 }
 
-
 @media only screen and (min-width: 1444px) {
-  .imageMobil{
+  .imageMobil {
     display: none;
   }
-  .imageDesktop{
+  .imageDesktop {
     display: block;
   }
 }
