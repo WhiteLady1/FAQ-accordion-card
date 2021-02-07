@@ -46,6 +46,16 @@ body {
 .imageDesktop {
   display: none;
 }
+.answer{
+  display: none;
+}
+.openedAnswer{
+  display: block;
+}
+.opened{
+  display: block;
+  transform: rotate(180deg);
+}
 .arrow:hover {
   cursor: pointer;
 }
